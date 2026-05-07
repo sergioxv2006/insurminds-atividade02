@@ -1,0 +1,15 @@
+# Ambientes Virtuais
+venv/
+env/
+
+# Python e Django
+__pycache__/
+*.pyc
+db.sqlite3
+.env
+
+# Banco de dados vetorial (ChromaDB)
+chroma_db/
+
+# Arquivos do Windows
+Thumbs.db
