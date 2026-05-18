@@ -50,3 +50,13 @@ O projeto está organizado na seguinte estrutura de diretórios:
  ┣ 📜 listar_modelos.py      # Script utilitário para checar modelos da API
  ┣ 📜 manage.py              # Orquestrador de comandos do Django
  ┗ 📜 requirements.txt       # Lista de dependências e bibliotecas do projeto
+```
+
+## 🚀 Como Usar e Iniciar o Projeto
+Siga os passos abaixo para rodar o projeto localmente em sua máquina.
+
+### 1. Clonar Repositório
+```
+git clone [https://github.com/sergioxv2006/insurminds-atividade02.git]
+cd insurminds-atividade02
+```
