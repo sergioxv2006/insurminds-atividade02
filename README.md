@@ -57,6 +57,26 @@ Siga os passos abaixo para rodar o projeto localmente em sua máquina.
 
 ### 1. Clonar Repositório
 ```
-git clone [https://github.com/sergioxv2006/insurminds-atividade02.git]
+git clone (https://github.com/sergioxv2006/insurminds-atividade02.git)
 cd insurminds-atividade02
+```
+
+### 2. Criar e Ativar o Ambiente Virtual
+```
+python -m venv venv
+# No Windows:
+.\\venv\\Scripts\\activate
+# No Linux/Mac:
+source venv/bin/activate
+```
+
+### 3. Instalar Dependências
+```
+pip install -r requirements.txt
+```
+
+### 4. Configurar as Variáveis de Ambiente
+Crie um arquivo chamado exatamente .env na raiz do projeto (mesma pasta do manage.py) e insira a sua chave de API do Google AI Studio:
+```
+GOOGLE_API_KEY=sua_chave_de_api_aqui
 ```
