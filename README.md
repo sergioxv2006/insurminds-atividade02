@@ -104,8 +104,8 @@ Após executar este comando, abra o seu navegador e acesse http://127.0.0.1:8000
 
 * Banco de Dados Vetorial: ChromaDB
 
-Embeddings: HuggingFace (all-MiniLM-L6-v2)
+* Embeddings: HuggingFace (all-MiniLM-L6-v2)
 
-Front-end: HTML5, CSS3, JavaScript (Fetch API)
+* Front-end: HTML5, CSS3, JavaScript (Fetch API)
 
-Ambiente de Desenvolvimento (IDE): Antigravity
+* Ambiente de Desenvolvimento (IDE): Antigravity
