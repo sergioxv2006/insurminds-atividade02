@@ -80,3 +80,32 @@ Crie um arquivo chamado exatamente .env na raiz do projeto (mesma pasta do manag
 ```
 GOOGLE_API_KEY=sua_chave_de_api_aqui
 ```
+
+### 5. Executar as Migrações do Banco de Dados
+```
+python manage.py migrate
+```
+
+### 6. Inicir o Servidor
+```
+python manage.py runserver
+```
+Após executar este comando, abra o seu navegador e acesse http://127.0.0.1:8000 para interagir com o ChatBot.
+
+## 🛠️ Tecnologias Utilizadas
+
+* Linguagem: Python 3.11+
+
+* Framework Web: Django & Django REST Framework
+
+* Inteligência Artificial (LLM): Google Gemini (gemini-1.5-flash)
+
+* Orquestração RAG: LangChain
+
+* Banco de Dados Vetorial: ChromaDB
+
+Embeddings: HuggingFace (all-MiniLM-L6-v2)
+
+Front-end: HTML5, CSS3, JavaScript (Fetch API)
+
+Ambiente de Desenvolvimento (IDE): Antigravity
