@@ -21,4 +21,6 @@ class ChatBotAPIView(APIView):
             resposta_ia = gerar_resposta_seguro(pergunta)
             return Response({"resposta": resposta_ia}, status=status.HTTP_200_OK)
         except Exception as e:
+            # IMPRIME O ERRO NO TERMINAL PARA PODEMOS DEPURAR
+            print(f"\n--- ERRO NA IA --- \n{str(e)}\n-------------------\n")
             return Response({"erro": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
